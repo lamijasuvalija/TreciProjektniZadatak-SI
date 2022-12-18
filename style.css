@@ -1,0 +1,76 @@
+html{
+    height: 100%;
+}
+h1{
+
+    position: absolute;
+    top:50px;
+    color: white;
+  }
+  
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6868AC;
+
+}
+.klavir{
+    display: flex;
+    position: relative;
+    margin-left: 4px;
+}
+.bijele-tipke{
+width: 100px;
+height: 400px;
+background-color: white;
+border:4px solid black;
+border-radius: 0 0 6xp 6xp;
+margin-left: -4px;
+outline: none;
+cursor:pointer
+}
+
+.bijele-tipke.active{
+    background-color: #c0c0cc;
+}
+ 
+.crne-tipke{
+     position: absolute;
+     width: 50px;
+     height: 250px;
+     background-image: linear-gradient(#000000, #303030 );
+     border: 3px solid black;
+     border-radius: 0 0 2px 2px;
+     outline: none;
+     cursor: pointer;
+}
+.crne-tipke.active {
+    background-image:linear-gradient(#000000, #101010);
+}
+
+.Cis{
+    left:70px;
+}
+
+.Dis{
+    left:167px;
+}
+.Fis{
+    left:358px;
+}
+.Gis{
+    left:455px;
+}
+.Ais{
+   left:550px;
+}
+.Cis2{
+   left:742px;
+}
+.Dis2{
+   left:839px;
+}
